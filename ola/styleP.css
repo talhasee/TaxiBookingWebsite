@@ -1,0 +1,126 @@
+body {
+
+    background: #d5e28b;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+*{
+
+    font-family: cursive;
+
+    text-align: center;
+
+    color: white; 
+
+    font-size: xx-large;
+
+    box-sizing: padding-box;
+
+}
+
+form {
+
+    width: 1000px;
+
+    height: fit-content;
+
+    border: 3px solid rgb(98, 45, 45);
+
+    padding: 20px;
+
+    background: rgb(147 72 72);
+
+    border-radius: 20px;
+
+}
+
+h2 {
+
+    text-align: center;
+
+    color: rgb(179, 230, 230);
+
+    margin-bottom: 40px;
+    
+    font-size: xxx-large;
+
+}
+
+button {
+
+    text-align: center;
+
+    background: rgb(35, 174, 202);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+
+select{
+    color: black;
+}
+
+option{
+    color: black;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="">UPI</a>
+    <a href="">Wallet </a>
+    <a href="">Net Banking</a>
+    <a href="">Cash</a>
+  </div>
+</div>
