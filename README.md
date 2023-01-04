@@ -1,2 +1,2 @@
-# TaxiBookingWebsite made using php and css
+# TaxiBookingWebsite made using php
 Webiste demonstrating DBMS concepts
